@@ -1,6 +1,9 @@
 body{
     background-image: url(../obrazky/obrazek_v_pozadi.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header{
@@ -76,7 +79,6 @@ thead {
     font-size: 1.2em
 }
 
-/* css pro navigaci */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -106,13 +108,6 @@ thead {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -121,6 +116,12 @@ thead {
     right: 0;
     top: 0;
   }
+  .topnav a:not(:first-child) {display: none;}  
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+    
   .topnav.responsive a {
     float: none;
     display: block;

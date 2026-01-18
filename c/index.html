@@ -3,12 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Softwarové licence</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>Ovladače, firmware a utility</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
     <style>
       h3 {
         color: red;
@@ -32,21 +29,25 @@
       </div>
     </header>
     <main>
-      <h3 id="c1">Co patří mezi systémový software</h3>
-      Kromě operačního systému sem patří také ovladače zařízení, firmware a utility.
-      Tento software zajišťuje správnou funkci hardwaru a celého počítačového systému.
-      <h3 id="c2">Ovladače a firmware</h3>
-      Ovladače zařízení (drivers) umožňují komunikaci operačního systému s hardwarem. Bez správného ovladače zařízení nefunguje.
-      Moderní OS obsahují ovladače pro běžná zařízení a podporují standard Plug and Play, který umožňuje automatickou instalaci hardwaru.
-      Nesprávný ovladač může způsobit poruchu zařízení nebo systému.
-      Firmware je software určený k řízení vestavěných systémů (např. pevné disky, routery, mobilní telefony).
-      V počítači je základním firmwarem BIOS, který zajišťuje spuštění počítače a základní nastavení hardwaru.
-      Firmware lze dnes aktualizovat pomocí flash paměti.
-      <h3 id="c3">Utility</h3>
-      Utility jsou menší programy pro údržbu a správu počítače.
-      Patří sem nástroje pro: kompresi souborů, diagnostiku a testování, kontrolu a optimalizaci systému, převod dat a práci s formáty.
-      Mnoho utilit je součástí operačního systému, např. Správce úloh, nástroje pro defragmentaci disku nebo kontrolu disku.
-      Některé utility lze spouštět i z příkazového řádku (např. ping, ipconfig).
+      <h3 id="c1">Systémový software a jeho součásti</h3>
+      K systémovému software můžeme kromě operačních systémů zařadit ovladače hardarových zařízení, firmware a aspoň zčásti i tzv. utility.
+      <h3 id="c2">Ovladače hardwarových zařízení</h3>
+      Ovladače zařízení (device drivers). Speciální programy, které zajišťují komunikaci OS s určitým technickým vybavením.
+      Bez potřebného ovladače nemůže zařízení správně fungovat.
+      Standardní ovladače pro běžná zařízení, jakými jsou flash disk, myš, klávesnice nebo digitální fotoaparáty, bývají součástí moderních OS.
+      Instalaci zařízení ve Windows usnadňuje standard Plug and Play (PnP - „připoj a hrej“), který zajistí automatickou detekci nově připojeného hardware a případně i automatické vyhledání potřebného ovladače.
+      Není-li driver nalezen přímo v OS, musí být použit externí instalátor ovladače z disku dodaného se zařízením (např. z instalačního CD k tiskárně), nebo stažený z internetových stránek, nejlépe přímo od výrobce.
+      Nevhodně zvolený ovladač může v krajním případě způsobit nefunkčnost zařízení, někdy i celého OS.
+      <h3 id="c3">Firmware a utility jako součást systémového softwaru</h3>
+      Firmware je programové vybavení, které slouží pro řízení nějakého vestavěného systému (embedded system).
+      Firmware řídí například kalkulačky, počítačové komponenty (pevný disk, router...), mobilní telefon, digitální fotoaparát atd.
+      Dříve byla aktualizace firmwaru realizována nahrazením paměťového média obsahujícího firmware (např. výměna ROM paměti), dnes může být novější verze firmware přepsána díky používaným flash pamětem.
+      Základním firmwarem v počítači je BIOS (Basic Output-Input System), který zajišťuje především start počítače a umožňuje konfiguraci základní desky i připojeného hardware.
+      Utility jsou menší pomocné programy, které umožňují vykonávat servisní operace potřebné k fungování počítače.
+      Patří k nim komprimační programy, diagnostické a testovací programy, utility pro kontrolu a optimalizaci operačního systému, různé konverzní (převodní) programy, které umí přehledně zobrazit obrázky, převést je z jednoho formátu na jiný atd. Řada utilit je integrální součástí OS.
+      Příkladem může být Správce úloh ve Windows (Task Manager), který umožňuje nejen správu spuštěných programů a služeb, ale i sledování využití systémových zdrojů (procesoru, paměti).
+      Dalšími užitečnými utilitami jsou nástroje pro defragmentaci (defrag) nebo kontrolu disku (chkdsk).
+      Některé utility lze spouštět z příkazového řádku (ping, ipconfig apod.).
     </main>
     <footer>
     <script src="../js/main.js"></script>
@@ -60,9 +61,6 @@
       </div>
       <div>&copy; Copyright 2025, David Muroň, IT1</div>
     </footer>
-    <script>
-      src = "../js/main.js";
-    </script>
-
+    <script src = "../js/main.js"></script>
   </body>
 </html>
