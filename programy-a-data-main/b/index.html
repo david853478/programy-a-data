@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="../css/style.css"/>
     <style>
-      h2 {
+      h3 {
         color: red;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>Operační systémy</h1>
+      <h1>Opereční systémy</h1>
       <div class="topnav" id="myTopnav">
         <a href="../index.html">Home</a>
         <a href="../a/index.html">Programové a datové soubory</a>
@@ -29,35 +29,18 @@
       </div>
     </header>
     <main>
-      <div class="layout">
-        <div class="text">
-          <h2 id="b1">Vztah softwaru a hardwaru, vznik operačních systémů</h2>
-          <p>Programové vybavení (software) je podmínkou využití technického vybavení
-          (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro konkrétní hardware.
-          V okamžiku, kdy počítače začaly být produkovány ve větších sériích, objevila se i potřeba vývoje speciálních systémových programů, které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh aplikací, tj. programů určených pro konkrétní účely.
-          Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy (OS - Operation System).
-          </p>
-        </div>
-        <figure class="image">
-            <img src="../obrazky/linux_logo.jpg" alt="Linux logo" />
-            <figcaption>Linux logo.</figcaption>
-          </figure>
-      </div>
-      <div class="layout">
-        <div class="text">
-          <h2 id="b2">Funkce operačního systému a jeho rozhraní</h2>
-          Jejich nejdůležitější funkcí je zajištění řízení hardware. To má na starosti jádro systému, které tvoří subsystémy pro správu procesoru, paměti, diskových médií a dalších zařízení.
-          Jádro pro své operace vyžaduje instalaci ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje technické vybavení běžícím procesům.
-          Nezbytnou součástí operačních systémů je aplikační rozhraní (API - Application Programming Interface), které nabízí programátorům prostředky pro vývoj aplikací pro daný systém.
-          Uživatelské rozhraní slouží k ovládání OS a k spouštění aplikací.
-          Zatímco starší OS se ovládaly častěji prostřednictvím příkazového řádku (CLI - Command Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (GUI - Graphic User Interface) založené na oknech a grafických prvcích.
-        </div>
-        <figure class="image">
-          <img src="../obrazky/windows_logo.jpg" alt="Windows logo" />
-          <figcaption>Windows logo.</figcaption>
-        </figure>
-      </div>
-      <h2 id="b3">Vývoj a typy moderních operačních systémů</h2>
+      <h3 id="b1">Vztah softwaru a hardwaru, vznik operačních systémů</h3>
+      Programové vybavení (software) je podmínkou využití technického vybavení
+      (hardware). V raných dobách počítačové éry byly programy vytvářeny vždy pro konkrétní hardware.
+      V okamžiku, kdy počítače začaly být produkovány ve větších sériích, objevila se i potřeba vývoje speciálních systémových programů, které by obstaraly základní operace s hardwarem a nabídly prostředí pro běh aplikací, tj. programů určených pro konkrétní účely.
+      Základním programovým vybavením počítačů (a jim podobných zařízení) jsou operační systémy (OS - Operation System).
+      <h3 id="b2">Funkce operačního systému a jeho rozhraní</h3>
+      Jejich nejdůležitější funkcí je zajištění řízení hardware. To má na starosti jádro systému, které tvoří subsystémy pro správu procesoru, paměti, diskových médií a dalších zařízení.
+      Jádro pro své operace vyžaduje instalaci ovladačů jednotlivých zařízení (drivers) a s jejich pomocí zpřístupňuje technické vybavení běžícím procesům.
+      Nezbytnou součástí operačních systémů je aplikační rozhraní (API - Application Programming Interface), které nabízí programátorům prostředky pro vývoj aplikací pro daný systém.
+      Uživatelské rozhraní slouží k ovládání OS a k spouštění aplikací.
+      Zatímco starší OS se ovládaly častěji prostřednictvím příkazového řádku (CLI - Command Line Interface), moderní systémy poskytují grafické uživatelské rozhraní (GUI - Graphic User Interface) založené na oknech a grafických prvcích.
+      <h3 id="b3">Vývoj a typy moderních operačních systémů</h3>
       Na počátku vývoje moderních OS byl víceúlohový a víceuživatelský systém UNIX, který se od 70. let používal v sálových počítačích i minipočítačích.
       Jeho principy využily i další OS. V 80. letech minulého století si vzájemně konkurovaly systémy firmy Microsoft (MS DOS), instalované na počítačích IBM PC, a firmy Apple (Mac OS), která rozvinula myšlenky vývojářů společnosti Xerox a začala jako první používat grafické uživatelské rozhraní.
       To se stalo také základem MS Windows, jenž hrál prim především na přelomu tisíciletí.
@@ -66,6 +49,13 @@
       Současné OS rozdělujeme nejčastěji podle typů zařízení, pro která jsou určeny.
       Existují systémy pro síťové servery (např. MS Windows 2012 Server, Linux, Unix), pro běžné osobní počítače - desktopy, notebooky, netbooky (např. MS Windows, Linux Ubuntu, OS X), pro mobilní zařízení (Android, Symbian, Windows Phone, iOS) i speciální RTOS (Real-Time Operating System - systémy reálného času), které zajišťují provoz „chytrých“ zařízení, jakými jsou robotické kamery využívané pro sportovní přenosy, měřící přístroje na orbitálních stanicích nebo jednotky pro řízení různých průmyslových procesů.
       Zatímco u desktopového systému je možné pozdržet dokončení některých operací a provádět paralelně jiné operace, v případě RTOS je nezbytné provádět operace bez prodlevy a s vysokou spolehlivostí v reálném čase.
+      <figure>
+        <img src="../obrazky/linux_logo.jpg" alt="Linux logo" />
+        <figcaption>Linux logo.</figcaption>
+      </figure><figure>
+        <img src="../obrazky/windows_logo.jpg" alt="Windows logo" />
+        <figcaption>Windows logo.</figcaption>
+      </figure>
     </main>
     <footer>
     <script src="../js/main.js"></script>

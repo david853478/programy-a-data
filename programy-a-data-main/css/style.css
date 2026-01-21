@@ -25,10 +25,6 @@ h1{
     font-size: 3em;
 }
 
-.special{
-    text-align: center;
-}
-
 main{
     max-width: 1200px;
     margin: 20px auto;
@@ -36,6 +32,10 @@ main{
     padding: 10px;
     background-color: rgba(255, 255, 255, 1);
     text-align: justify;
+}
+
+h2 {
+    background-color: azure;
 }
 
 table, th, td {
@@ -56,10 +56,6 @@ th {
     background-color: rgba(255, 0, 0, 0.1);
 }
 
-.bgRed h3 {
-    color: rgba(155, 0, 0, 0.9);
-}
-
 .bgDarkRed {
     background-color: rgba(55, 0, 0);
     text-transform: uppercase;
@@ -67,10 +63,6 @@ th {
 
 .bgGreen {
     background-color: rgba(0, 255, 0, 0.1);
-}
-
-.bgGreen h3{
-  color: rgba(0, 150, 0, 0.9)
 }
 
 .bgDarkGreen {
@@ -135,27 +127,8 @@ thead {
     display: block;
     text-align: left;
   }
-  .layout {
-    flex-direction: column;
-  }
-
-  .image {
-    text-align: center;
-    margin-top: 20px;
-  }
 }
 
-.layout {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.text {
-  padding-right: 20px;
-}
-
-.image {
-  flex: 1;
-  text-align: right;
+.checked {
+  color: orange;
 }
